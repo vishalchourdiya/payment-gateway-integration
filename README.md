@@ -16,6 +16,9 @@ Production-oriented payment gateway backend built using Java and Spring Boot wit
 - JWT Authentication
 
 ---
+## System Architecture
+
+![System Architecture](docs/images/payment-gateway-workflow.png)
 
 ## Features
 
