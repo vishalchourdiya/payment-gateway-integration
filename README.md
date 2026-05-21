@@ -1,4 +1,4 @@
-# Solwio Payment Gateway System
+#  Payment Gateway System
 
 Production-oriented payment gateway backend built using Java and Spring Boot with secure transaction processing, gateway routing, reconciliation support, Dockerized deployment, and monitoring-ready architecture.
 
@@ -71,8 +71,8 @@ src/main/java
 ### Clone Repository
 
 ```bash
-git clone https://github.com/vishalchourdiya/solwio-payment-gateway.git
-cd solwio-payment-gateway
+git clone https://github.com/vishalchourdiya/payment-gateway-integration.git
+cd payment-gateway-integration
 ```
 
 ### Configure Environment Variables
