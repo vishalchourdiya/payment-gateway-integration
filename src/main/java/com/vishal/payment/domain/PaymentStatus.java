@@ -1,0 +1,17 @@
+package com.vishal.payment.domain;
+
+public enum PaymentStatus {
+    INITIATED,
+    PROVIDER_ACCEPTED,
+    PROCESSING,
+    SUCCESS,
+    FAILED,
+    DECLINED,
+    REJECTED,
+    EXPIRED,
+    REVERSED,
+    CALLBACK_RECEIVED,
+    CALLBACK_SIGNATURE_FAILED,
+    CALLBACK_DECRYPTION_FAILED,
+    RECONCILIATION_REQUIRED
+}

@@ -1,0 +1,8 @@
+target
+.git
+.idea
+*.iml
+.env
+logs
+.DS_Store
+README.md

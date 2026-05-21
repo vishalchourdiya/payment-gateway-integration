@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:paymentdb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  flyway:
+    enabled: false
+payment:
+  gateway:
+    mode: UAT
+    mid: DEMO_MERCHANT_001
+    encryption-key: 0123456789abcdef0123456789abcdef
+    uat-url: http://localhost:9999/mock
+    production-url: http://localhost:9999/mock
+    callback-url: http://localhost:8080/api/v1/payments/callback
+    connect-timeout-ms: 1000
+    read-timeout-ms: 2000
+    callback-replay-window-minutes: 5
+    stale-payment-minutes: 15
